@@ -1,0 +1,6 @@
+---
+- name: Run the role1 for all the nodes
+  hosts: localhost
+  tasks:
+  - import_role:
+      name: api-work
